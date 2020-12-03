@@ -7,9 +7,7 @@ first_name: Parker
 middle_name: J.
 last_name: Rule
 email: parker.rule@tufts.edu
-description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
-
+description: Parker J. Rule's personal website and project portfolio.
 url:  # the base hostname & protocol for your site
 baseurl: /
 last_updated: false # set to true if you want to display last updated in the footer
