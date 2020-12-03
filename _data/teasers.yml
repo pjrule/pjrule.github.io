@@ -1,0 +1,13 @@
+# teasers idea stolen from @mayankm96
+# see https://github.com/Mayankm96/Mayankm96.github.io/blob/b353dc39b82cc641ac792f2c8948e9b14af62d3c/_layouts/bib.html
+graph_transport:
+  img: graph_transport.png
+  alt: A teaser graphic for the graph transport paper showing a multidimensional scaling representation of an ensemble of 3x3 districting plans.
+
+covid_robot:
+  img: covid_robot.png
+  alt: A teaser graphic for the COVID robot paper showing a scan of a room's floor plan.
+
+revrecom:
+  img: revrecom.png
+  alt: A teaser graphic for the reversible recombination paper showing the convergence of two histograms.

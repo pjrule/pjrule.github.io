@@ -2,14 +2,10 @@
 ---
 
 <div class="row">
-  <div class="col-sm-2 abbr">
-  {% if entry.abbr %}
-    {% if site.data.venues[entry.abbr] %}
-    <abbr class="badge"><a href="{{site.data.venues[entry.abbr].url}}" target="_blank">{{entry.abbr}}</a></abbr>
-    {% else %}
-    <abbr class="badge">{{entry.abbr}}</abbr>
-    {% endif %}
-  {% endif %}
+  <div style="clear: both;">
+    <div>
+        <img class="col bibone first" style="width:180px" alt="{{ site.data.teasers[entry.abbr].alt }}" src="{{ site.data.teasers[entry.abbr].img| prepend: '/assets/img/teasers/' | prepend: site.baseurl | prepend: site.url }}">
+    </div>
   </div>
 
   <div id="{{entry.key}}" class="col-sm-8">
@@ -20,30 +16,30 @@
       <div class="author">
         {% for author in entry.author_array %}
           {% if forloop.length == 1 %}
-            {% if author.last == site.scholar.last_name %}
-              <em>{{author.last}}, {{author.first}}</em>
+            {% if author.last == "Rule" %}
+              <em>{{author.first}} {{author.last}}</em>
             {% else %}
-              {{author.last}}, {{author.first}}
+              {{author.first}} {{author.last}}
             {% endif %}
           {% else %}
             {% unless forloop.last %}
-              {% if author.last == site.scholar.last_name %}
-                <em>{{author.last}}, {{author.first}}</em>,
+              {% if author.last == "Rule" %}
+                <em>{{author.first}} {{author.last}}</em>,
               {% else %}
                 {% if site.data.coauthors[author.last] %}
-                  <a href="{{site.data.coauthors[author.last].url}}" target="_blank">{{author.last}}, {{author.first}}</a>,
+                  <a href="{{site.data.coauthors[author.last].url}}" target="_blank">{{author.first}} {{author.last}}</a>,
                 {% else %}
-                  {{author.last}}, {{author.first}},
+                  {{author.first}} {{author.last}},
                 {% endif %}
               {% endif %}
             {% else %}
-              {% if author.last == site.scholar.last_name %}
-                and <em>{{author.last}}, {{author.first}}</em>
+              {% if author.last == "Rule" %}
+                and <em>{{author.first}} {{author.last}}</em>
               {% else %}
                 {% if site.data.coauthors[author.last] %}
-                  and <a href="{{site.data.coauthors[author.last].url}}" target="_blank">{{author.last}}, {{author.first}}</a>
+                  and <a href="{{site.data.coauthors[author.last].url}}" target="_blank">{{author.first}} {{author.last}}</a>
                 {% else %}
-                  and {{author.last}}, {{author.first}}
+                  and {{author.first}} {{author.last}}
                 {% endif %}
               {% endif %}
             {% endunless %}
@@ -53,12 +49,12 @@
 
       <div class="periodical">
       {% if entry.type == "article" %}
-        <em>{{entry.journal}}</em>
+        <em>{{entry.journal}}, </em>
       {% elsif entry.type == "inproceedings" %}
-        <em>In {{entry.booktitle}}</em>
+        <em>In {{entry.booktitle}}, </em>
       {% endif %}
       {% if entry.year %}
-        {{entry.year}}
+        {{entry.year}}.
       {% endif %}
       </div>
     {% endif %}
