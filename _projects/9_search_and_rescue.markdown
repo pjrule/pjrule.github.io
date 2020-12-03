@@ -4,6 +4,7 @@ title: Turn-based search and rescue
 description: TODO
 img: /assets/img/projects/search_and_rescue.gif
 img_width: 200
+img_height: 200
 img_alt: An animation of search and rescue on a grid. Several searchers attempt to find a missing person walking randomly.
 redirect: https://github.com/pjrule/math87-final
 importance: 9

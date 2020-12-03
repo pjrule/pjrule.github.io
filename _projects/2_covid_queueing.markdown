@@ -5,6 +5,7 @@ description: An interactive featuring a parameterized simulation of the M/D/c qu
 img: /assets/img/projects/covid_queueing.png
 img_alt: A screenshot of the campus coronavirus testing similator, showing a maximum wait time of 13 minutes for the student cohort and very little wait time for the staff cohort.
 img_width: 300
+img_height: 237
 redirect: https://mggg.github.io/covid-queueing/
 importance: 2
 timespan: Summer 2020

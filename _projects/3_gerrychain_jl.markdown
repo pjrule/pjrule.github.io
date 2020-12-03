@@ -4,6 +4,7 @@ title: GerryChain.jl
 description: TODO
 img: /assets/img/projects/gerrychain_jl.png
 img_width: 225
+img_height: 82
 img_alt: GerryChain.jl logo.
 redirect: https://github.com/mggg/gerrychainjulia
 collaborators: Bhushan Suwal (MGGG) and Matthew Sun (Princeton)

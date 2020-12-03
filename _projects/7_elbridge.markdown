@@ -4,6 +4,7 @@ title: "Elbridge: redistricting via multi-agent competition"
 description: TODO
 img: /assets/img/projects/elbridge.gif
 img_width: 200
+img_height: 212
 img_alt: An animation showing the construction of a districting plan on a grid by walking randomly and coloring squares along the walk.
 redirect: https://github.com/pjrule/elbridge
 importance: 7

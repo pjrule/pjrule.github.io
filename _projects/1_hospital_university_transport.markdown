@@ -5,6 +5,7 @@ description: TODO
 img: /assets/img/projects/hospital_university_transport.png
 img_alt: A screenshot of the hospital-university transport dashboard for Massachusetts. Several large universities absorb flow from smaller hospitals.
 img_width: 300
+img_height: 186
 redirect: https://mggg.org/covid-flows/index.html
 importance: 1
 timespan: Spring 2020

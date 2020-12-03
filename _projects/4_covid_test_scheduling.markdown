@@ -7,6 +7,7 @@ redirect: https://github.com/mggg/covid-scheduling
 importance: 4
 timespan: "2020"
 img_width: 180
+img_height: 179
 ---
 
 As part of a logistics effort at Tufts University and Wellesley College, I developed an mixed integer programming-based algorithm for scheduling coronavirus tests. The algorithm takes personal schedules, testing center capacity, test spacing, and load balancing into account to produce optimal schedules for over 10,000 people at Tufts and Wellesley. 

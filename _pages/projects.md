@@ -22,7 +22,7 @@ nav: true
       <h3 class="project-date">{{ project.timespan }}</h3>
     </div>
     <div class="project-body">
-      <img src="{{ project.img | relative_url }}" alt="{{ project.img_alt }}" width="{{ project.img_width }}" class="project-image">
+      <img src="{{ project.img | relative_url }}" alt="{{ project.img_alt }}" width="{{ project.img_width }}" height="{{ project.img_height }}" class="project-image">
       <div class="project-text">{{ project.content | markdownify }}</div>
     </div>
   </div>

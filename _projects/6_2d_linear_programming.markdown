@@ -5,6 +5,7 @@ description: A Python implementation of Joseph Megiddo's influential algorithm f
 img: /assets/img/projects/2d_linear_programming.png
 img_alt: Shaded regions indicating the overlap of linear constraints on a plane.
 img_width: 180
+img_height: 175
 redirect: https://github.com/pjrule/comp163-project
 importance: 6
 timespan: Spring 2020

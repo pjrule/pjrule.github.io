@@ -4,6 +4,7 @@ title: The shape of language
 description: TODO
 img: /assets/img/projects/ngrams.png
 img_width: 300
+img_height: 207
 img_alt: A plot showing the steadily increasing popularity of the phrase critical reason over time.
 #redirect: \#
 importance: 10

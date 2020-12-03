@@ -5,6 +5,7 @@ description: An interactive surveying the literature for graph coloring, a notor
 img: /assets/img/projects/graph_coloring.png
 img_alt: A complete graph (every vertex is connected to every other vertex). Each node in this graph is colored differently.
 img_width: 165
+img_height: 165
 redirect: https://pjrule.me/comp150-alg/ 
 importance: 5
 timespan: Summer 2020
