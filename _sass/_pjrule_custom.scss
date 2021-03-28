@@ -47,4 +47,16 @@
     .project-image, .project-date {
         display: none;
     }
+    .profile img {
+        max-width: 250px;
+        margin-bottom: 1.5rem;
+    }
+}
+
+.news {
+    padding-top: 1.75rem;
+}
+
+.publications {
+    padding-top: 0.25rem;
 }
