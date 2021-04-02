@@ -19,4 +19,4 @@ I am an undergraduate at Tufts University, where I study mathematics, computer s
 * <a href="https://github.com/mggg/gerrychainjulia" target="_blank">**GerryChain.jl**</a>, a high-performance Julia library for Markov chain Monte Carlo (MCMC) sampling of redistricting plans.
 * <a href="https://mggg.github.io/covid-queueing/" target="_blank">**An interactive tool based on queueing theory**</a> used by university administrators to design COVID-19 testing centers.
 
-I am also affiliated with Tufts' <a href="http://www.cs.tufts.edu/research/geometry/index.php" target="_blank">Computational Geometry research group</a>, where I have recently studied motion planning algorithms for disinfection robots.
+I am also affiliated with Tufts' <a href="http://www.cs.tufts.edu/research/geometry/index.php" target="_blank">Computational Geometry research group</a>.
